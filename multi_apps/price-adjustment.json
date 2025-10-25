@@ -1,0 +1,54 @@
+{
+    "single-action": [
+        "`CLICK` address bar",
+        "`TYPE` 'current California sales tax rate' in the search bar",
+        "`ENTER` search",
+        "`SCROLL` to find the official/current tax rate result",
+        "`MOVE_TO` before the percentage value",
+        "`DRAG_TO` after the percentage value",
+        "`HOTKEY` 'Ctrl+C' copy the tax rate",
+        "`CLICK` on the LibreOffice Calc window with the product prices",
+        "`CLICK` on cell B1",
+        "`TYPE` '='",
+        "`CLICK` on cell A1",
+        "`TYPE` '* (1 + '",
+        "`HOTKEY` 'Ctrl+V' paste the tax rate",
+        "`TYPE` ')' ",
+        "`ENTER` to calculate",
+        "`CLICK` cell B1",
+        "`MOVE_TO bottom right corner of the cell B1`",
+        "`DRAG_TO` bottom right corner of the cell B10"
+    ],
+    "grouped-action": [
+        [
+            "`CLICK` address bar",
+            "`TYPE` 'current California sales tax rate' in the search bar",
+            "`ENTER` search"
+        ],
+        [
+            "`SCROLL` to find the official/current tax rate result"
+        ],
+        [
+            "`MOVE_TO` before the percentage value",
+            "`DRAG_TO` after the percentage value",
+            "`HOTKEY` 'Ctrl+C' copy the tax rate"
+        ],
+        [
+            "`CLICK` on the LibreOffice Calc window with the product prices"
+        ],
+        [
+            "`CLICK` on cell B1",
+            "`TYPE` '='",
+            "`CLICK` on cell A1",
+            "`TYPE` '* (1 + '",
+            "`HOTKEY` 'Ctrl+V' paste the tax rate",
+            "`TYPE` ')' ",
+            "`ENTER` to calculate",
+            "`CLICK` cell B1",
+            "`MOVE_TO bottom right corner of the cell B1`",
+            "`DRAG_TO` bottom right corner of the cell B10"
+        ]
+    ],
+    "snapshot": "chrome",
+    "instruction": "I have prices for my products in my LibreOffice Calc window, but I want to know the prices with tax included. Find the current sales tax rate in California, and apply that to all the prices in my spreadsheet in the next column over."
+}
