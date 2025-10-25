@@ -1,0 +1,20 @@
+{
+    "single-action": [
+        "`HOTKEY`'Ctrl+Shift+G' to open source control",
+        "`CLICK` on 'Fetch from all remotes' button (two icons beside Auto)",
+        "`CLICK` on Open Changes icon next to the latest commit"
+    ],
+    "grouped-action": [
+        [
+            "`HOTKEY`'Ctrl+Shift+G' to open source control"
+        ],
+        [
+            "`CLICK` on 'Fetch from all remotes' button (two icons beside Auto)"
+        ],
+        [
+            "`CLICK` on Open Changes icon next to the latest commit"
+        ]
+    ],
+    "snapshot": "vs_code",
+    "instruction": "Can you fetch the latest commit of this repository and open changes in the VS Code editor? Can you use the UI to navigate? I'm new to this and want to learn."
+}
