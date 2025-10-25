@@ -2,7 +2,7 @@
     "single-action": [
         "`CLICK` address bar",
         "`TYPE` 'current California sales tax rate' in the search bar",
-        "`ENTER` search",
+        "`PRESS` enter",
         "`SCROLL` to find the official/current tax rate result",
         "`MOVE_TO` before the percentage value",
         "`DRAG_TO` after the percentage value",
@@ -14,7 +14,7 @@
         "`TYPE` '* (1 + '",
         "`HOTKEY` 'Ctrl+V' paste the tax rate",
         "`TYPE` ')' ",
-        "`ENTER` to calculate",
+        "`PRESS` enter",
         "`CLICK` cell B1",
         "`MOVE_TO bottom right corner of the cell B1`",
         "`DRAG_TO` bottom right corner of the cell B10"
@@ -23,7 +23,7 @@
         [
             "`CLICK` address bar",
             "`TYPE` 'current California sales tax rate' in the search bar",
-            "`ENTER` search"
+            "`PRESS` enter"
         ],
         [
             "`SCROLL` to find the official/current tax rate result"
@@ -43,7 +43,7 @@
             "`TYPE` '* (1 + '",
             "`HOTKEY` 'Ctrl+V' paste the tax rate",
             "`TYPE` ')' ",
-            "`ENTER` to calculate",
+            "`PRESS` enter",
             "`CLICK` cell B1",
             "`MOVE_TO bottom right corner of the cell B1`",
             "`DRAG_TO` bottom right corner of the cell B10"
