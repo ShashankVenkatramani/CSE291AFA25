@@ -1,0 +1,30 @@
+{
+    "single-action": [
+        "`HOTKEY` 'Ctrl-Alt+S'",
+        "`CLICK` gimp window",
+        "`HOTKEY` ctrl-alt-o",
+        "`CLICK` pictures",
+        "`CLICK` on screencaptured image file",
+        "`PRESS` enter"
+    ],
+    "grouped-action": [
+        [
+            "`HOTKEY` 'Ctrl-Alt+S'"
+        ],
+        [
+            "`CLICK` gimp window"
+        ],
+        [
+            "`HOTKEY` ctrl-alt-o"
+        ],
+        [
+            "`CLICK` pictures"
+        ],
+        [
+            "`CLICK` on screencaptured image file",
+            "`PRESS` enter"
+        ]
+    ],
+    "snapshot": "vlc",
+    "instruction": "I have this really funny frame I like in this video I'm watching. Please save a screenshot of it from VLC using its built in snapshot, and open the file in GIMP so I can edit it. It should save to 'Pictures' which is currently empty."
+}
