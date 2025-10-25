@@ -1,0 +1,40 @@
+{
+    "single-action": [
+        "`CLICK` slide 3",
+        "`CLICK` Slide.",
+        "`CLICK` Slide Properties...",
+        "`CLICK` leftmost red from recent colors",
+        "`CLICK` OK.",
+        "`CLICK` slide 4",
+        "`CLICK` Slide.",
+        "`CLICK` Slide Properties...",
+        "`CLICK` leftmost red from recent colors",
+        "`CLICK` OK."
+    ],
+    "grouped-action": [
+        [
+            "`CLICK` slide 3"
+        ],
+        [
+            "`CLICK` Slide.",
+            "`CLICK` Slide Properties..."
+        ],
+        [
+            "`CLICK` leftmost red from recent colors",
+            "`CLICK` OK."
+        ],
+        [
+            "`CLICK` slide 4"
+        ],
+        [
+            "`CLICK` Slide.",
+            "`CLICK` Slide Properties..."
+        ],
+        [
+            "`CLICK` leftmost red from recent colors",
+            "`CLICK` OK."
+        ]
+    ],
+    "snapshot": "libreoffice_impress",
+    "instruction": "I like the red color used in slide 2. Please copy that color to slides 3 and 4 in this LibreOffice Impress presentation."
+}
