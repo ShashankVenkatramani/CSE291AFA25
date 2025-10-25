@@ -1,0 +1,86 @@
+{
+    "single-action": [
+        "`HOTKEY`'Ctrl+Alt+T' open the terminal",
+        "`TYPING` 'cd ~/Documents/merch/'",
+        "`PRESS` Enter",
+        "`TYPING` 'ls -l",
+        "`PRESS` Enter",
+        "`MOVE_TO` before the first file size",
+        "`DRAG_TO` after the first size",
+        "`HOTKEY` 'Ctrl+C' copy",
+        "`CLICK` on the LibreOffice Calc window with 'sizes.xlsx' open",
+        "`CLICK` on A1 cell",
+        "`HOTKEY` 'Ctrl+V' paste the first file size",
+        "`CLICK` on the terminal window",
+        "`MOVE_TO` before the second file size",
+        "`DRAG_TO` after the second size",
+        "`HOTKEY` 'Ctrl+C' copy",
+        "`CLICK` on the LibreOffice Calc window with 'sizes.xlsx' open",
+        "`CLICK` on A1 cell",
+        "`HOTKEY` 'Ctrl+V' paste the second file size",
+        "`CLICK` on the terminal window",
+        "`MOVE_TO` before the third file size",
+        "`DRAG_TO` after the third size",
+        "`HOTKEY` 'Ctrl+C' copy",
+        "`CLICK` on the LibreOffice Calc window with 'sizes.xlsx' open",
+        "`CLICK` on A1 cell",
+        "`HOTKEY` 'Ctrl+V' paste the third file size"
+    ],
+    "grouped-action": [
+        [
+            "`HOTKEY`'Ctrl+Alt+T' open the terminal"
+        ],
+        [
+            "`TYPING` 'cd ~/Documents/merch/'",
+            "`PRESS` Enter"
+        ],
+        [
+            "`TYPING` 'ls -l",
+            "`PRESS` Enter"
+        ],
+        [
+            "`MOVE_TO` before the first file size",
+            "`DRAG_TO` after the first size",
+            "`HOTKEY` 'Ctrl+C' copy"
+        ],
+        [
+            "`CLICK` on the LibreOffice Calc window with 'sizes.xlsx' open"
+        ],
+        [
+            "`CLICK` on A1 cell",
+            "`HOTKEY` 'Ctrl+V' paste the first file size"
+        ],
+        [
+            "`CLICK` on the terminal window"
+        ],
+        [
+            "`MOVE_TO` before the second file size",
+            "`DRAG_TO` after the second size",
+            "`HOTKEY` 'Ctrl+C' copy"
+        ],
+        [
+            "`CLICK` on the LibreOffice Calc window with 'sizes.xlsx' open"
+        ],
+        [
+            "`CLICK` on A1 cell",
+            "`HOTKEY` 'Ctrl+V' paste the second file size"
+        ],
+        [
+            "`CLICK` on the terminal window"
+        ],
+        [
+            "`MOVE_TO` before the third file size",
+            "`DRAG_TO` after the third size",
+            "`HOTKEY` 'Ctrl+C' copy"
+        ],
+        [
+            "`CLICK` on the LibreOffice Calc window with 'sizes.xlsx' open"
+        ],
+        [
+            "`CLICK` on A1 cell",
+            "`HOTKEY` 'Ctrl+V' paste the third file size"
+        ]
+    ],
+    "snapshot": "chrome",
+    "instruction": "Get all the file sizes of the current merch designs in '~/Documents/merch/' and save them in the Merch Spreadsheet"
+}
