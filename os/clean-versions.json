@@ -1,0 +1,36 @@
+{
+    "single-action": [
+        "`HOTKEY`'Ctrl+Alt+T' open the terminal",
+        "`TYPING` 'cd ~/Documents/Project/'",
+        "`PRESS` Enter",
+        "`TYPING` 'ls'",
+        "`PRESS` Enter",
+        "`TYPING` 'rm report_v1.docx'",
+        "`PRESS` Enter",
+        "`TYPING` 'rm report_v2.docx'",
+        "`PRESS` Enter"
+    ],
+    "grouped-action": [
+        [
+            "`HOTKEY`'Ctrl+Alt+T' open the terminal"
+        ],
+        [
+            "`TYPING` 'cd ~/Documents/Project/'",
+            "`PRESS` Enter"
+        ],
+        [
+            "`TYPING` 'ls'",
+            "`PRESS` Enter"
+        ],
+        [
+            "`TYPING` 'rm report_v1.docx'",
+            "`PRESS` Enter"
+        ],
+        [
+            "`TYPING` 'rm report_v2.docx'",
+            "`PRESS` Enter"
+        ]
+    ],
+    "snapshot": "os",
+    "instruction": "I just submitted my final report for my project. I like to keep som records, but I don't need my old versions of it. Please clean it up in my Documents/Project/ folder using the terminal."
+}

@@ -1,0 +1,32 @@
+{
+    "single-action": [
+      "`CLICK` address bar",
+      "`TYPING` 'https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-zip-file.zip' in the address bar",
+      "`PRESS` 'enter'",
+      "`HOTKEY`'Ctrl+Alt+T' open the terminal",
+      "`TYPING` 'mv ~/Downloads/sample-zip-file.zip ~/Documents/sample-zip-file.zip'",
+      "`PRESS` Enter",
+      "`TYPING` 'unzip ~/Documents/sample-zip-file.zip'",
+      "`PRESS` Enter"
+    ],
+    "grouped-action": [
+        [
+            "`CLICK` address bar",
+            "`TYPING` 'https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-zip-file.zip' in the address bar",
+            "`PRESS` 'enter'"
+        ],
+        [
+            "`HOTKEY`'Ctrl+Alt+T' open the terminal"
+        ],
+        [
+            "`TYPING` 'mv ~/Downloads/sample-zip-file.zip ~/Documents/sample-zip-file.zip'",
+            "`PRESS` Enter"
+        ],
+        [
+            "`TYPING` 'unzip ~/Documents/sample-zip-file.zip'",
+            "`PRESS` Enter"
+        ]
+    ],
+    "snapshot": "chrome",
+    "instruction": "I need to access the contents of a zip file from the internet. Please get the file from https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-zip-file.zip using chrome, and extract it in my Documents folder via the terminal"
+}
