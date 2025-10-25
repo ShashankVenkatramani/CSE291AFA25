@@ -1,0 +1,22 @@
+{
+    "single-action": [
+      "`HOTKEY` press the key combination 'Ctrl+Shift+Del'",
+      "`CLICK` DELETE DATA button",
+      "`CLICK` localhost dev page",
+      "`HOTKEY` press 'Ctrl+R' to refresh the page"
+    ],
+    "grouped-action": [
+      [
+        "`HOTKEY` press the key combination 'Ctrl+Shift+Del'"
+      ],
+      [
+        "`CLICK` DELETE DATA button",
+        "`CLICK` localhost dev page"
+      ],
+      [
+        "`HOTKEY` press 'Ctrl+R' to refresh the page"
+      ]
+    ],
+    "snapshot": "chrome",
+    "instruction": "I need to test my website as if I was a new user, please clear the cache and reload my dev page."
+}
