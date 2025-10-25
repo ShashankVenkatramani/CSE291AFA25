@@ -3,7 +3,7 @@
         "`HOTKEY`'Ctrl+Alt+T' open the terminal",
         "`TYPING` 'cd ~/Documents/merch/'",
         "`PRESS` Enter",
-        "`TYPING` 'ls -l",
+        "`TYPING` 'ls -l'",
         "`PRESS` Enter",
         "`MOVE_TO` before the first file size",
         "`DRAG_TO` after the first size",
