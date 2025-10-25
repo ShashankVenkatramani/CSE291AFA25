@@ -1,15 +1,19 @@
 {
     "single-action": [
-        "`HOTKEY` 'Ctrl-Alt+S'",
+        "`CLICK` on 'Video' in the menu bar",
+        "`CLICK` on 'Take Snapshot'",
         "`CLICK` gimp window",
         "`HOTKEY` ctrl-alt-o",
-        "`CLICK` pictures",
+        "`CLICK` desktop",
         "`CLICK` on screencaptured image file",
         "`PRESS` enter"
     ],
     "grouped-action": [
         [
-            "`HOTKEY` 'Ctrl-Alt+S'"
+            "`CLICK` on 'Video' in the menu bar"
+        ],
+        [
+            "`CLICK` on 'Take Snapshot'"
         ],
         [
             "`CLICK` gimp window"
@@ -18,7 +22,7 @@
             "`HOTKEY` ctrl-alt-o"
         ],
         [
-            "`CLICK` pictures"
+            "`CLICK` desktop"
         ],
         [
             "`CLICK` on screencaptured image file",
@@ -26,5 +30,5 @@
         ]
     ],
     "snapshot": "vlc",
-    "instruction": "I have this really funny frame I like in this video I'm watching. Please save a screenshot of it from VLC using its built in snapshot, and open the file in GIMP so I can edit it. It should save to 'Pictures' which is currently empty."
+    "instruction": "I like this current frame from the video and want to turn it into marketing material. Please save a screenshot of it from VLC using its built in snapshot, and open the file in GIMP so I can edit it. It should save to '/home/user/Desktop/' which is currently empty."
 }
